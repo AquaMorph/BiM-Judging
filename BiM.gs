@@ -32,6 +32,10 @@ function instantRunoff() {
   // Get sheet information
   sheet = SpreadsheetApp.getActiveSheet();
   lastRow = sheet.getLastRow();
+
+  // Set sheet freeze
+  sheet.setFrozenColumns(numInfo-1);
+  sheet.setFrozenRows(numTopInfo);
   
   // Prepare for IRV
   copyData();
