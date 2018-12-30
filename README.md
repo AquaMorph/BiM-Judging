@@ -36,8 +36,8 @@ Since this manually doing IRV is rather tedious I have developed a Google Sheets
 7. Enter each of the judges rankings giving the film a numeric value equal to that judges rank. Add films in a new row as necessary. There should only be one row per film.
 8. Once all data is inputed create a copy of the sheet by clicking the error on the bottom where it says "Sheet1" and then click "Duplicate." This is a back up of the raw data before the algorithm begins manipulating the data.
 9. Now navigate on Add-ons -> BiM Judging -> Rank by Instant Runoff.
-10. A pop up will appear asking for the number of columns before ranking information. Enter a numerical of the number of columns that are before the judging rankings and select ok.
-11. Another pop up will appear asking for the number of judges. Enter the number of judges as a number and click ok.
+10. A pop up will appear asking for the number of columns before ranking information. Enter a numerical of the number of columns that are before the judging rankings and select ok. If you are using the example document found below one would enter 2.
+11. Another pop up will appear asking for the number of judges. Enter the number of judges as a number and click ok. If one is following the example document on would enter 5.
 12. The algorithm will be begin running with an indicator on the screen showing that it is still running. It should take around a minute depending on the number of judges and films.
 13. Once a ranks column is created at the very beginning of the sheet the algorithm is done running and those are the IRV rankings.
 
